@@ -1,5 +1,5 @@
-# 使用node.js + express开发简易后台
-### 开发环境node.js + express
+# centOS7 VM安装与运行相关
+### [安装](http://jingyan.baidu.com/article/a3aad71aa180e7b1fa009676.html)
 ## [源码](https://github.com/peng1992/express)
 ## 项目预览
 ![](./public/images/express.gif)
