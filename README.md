@@ -1,10 +1,24 @@
 # centOS7 VM安装与运行相关
-### 初识centOS 此当用来记录使用中遇到的问题以及检索到的解决方法
+#### 初识centOS 此文档用来记录使用中遇到的问题以及检索到的解决方法
 ## [centOS7官方下载地址](https://www.centos.org/download/)
 ## [安装centOS7](http://jingyan.baidu.com/article/a3aad71aa180e7b1fa009676.html)
-## [源码](https://github.com/peng1992/express)
-## 项目预览
-![](./public/images/express.gif)
+## 问题1-centOS7网络问题及解决方法
+#### 默认centOS7网络是不连接互联网的,开启方法
+```
+cd /etc/sysconfig/network-scripts
+![](./imgs/network1.png)
+这个配置文件是安装centOS7自带的。文件名可能不一样.打开此文件
+vi ifcfg-ens33
+![](./imgs/network2.png)
+默认NOBOOT=no
+修改为NOBOOT=yes
+esc -> :wq!
+保存退出
+![](./imgs/network3.png)
+现在重启网络 即可链接网络 
+service network restart
+ping www.baidu.com
+```
 
 ## 复制项目
 ```
