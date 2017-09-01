@@ -4,7 +4,7 @@
 ## [安装centOS7](http://jingyan.baidu.com/article/a3aad71aa180e7b1fa009676.html)
 ## 问题1-centOS7网络问题及解决方法
 #### 默认centOS7网络是不连接互联网的,开启方法
-```
+
 cd /etc/sysconfig/network-scripts
 ![](./imgs/network1.png)
 这个配置文件是安装centOS7自带的。文件名可能不一样.打开此文件
@@ -18,7 +18,7 @@ esc -> :wq!
 现在重启网络 即可链接网络 
 service network restart
 ping www.baidu.com
-```
+
 
 ## 复制项目
 ```
