@@ -1,5 +1,7 @@
 # centOS7 VM安装与运行相关
-### [安装](http://jingyan.baidu.com/article/a3aad71aa180e7b1fa009676.html)
+### 初识centOS 此当用来记录使用中遇到的问题以及检索到的解决方法
+## [centOS7官方下载地址](https://www.centos.org/download/)
+## [安装centOS7](http://jingyan.baidu.com/article/a3aad71aa180e7b1fa009676.html)
 ## [源码](https://github.com/peng1992/express)
 ## 项目预览
 ![](./public/images/express.gif)
